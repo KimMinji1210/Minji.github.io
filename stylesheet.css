@@ -1,0 +1,146 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.header-left {
+  float: left;
+  margin: 20px 30px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.header-right li {
+  list-style: none;
+  float: left;
+  margin-right: 50px;
+}
+
+.main {
+  color: black;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 45px;
+  font-family: fantasy;
+}
+
+.container p {
+  font-family: fantasy;
+  padding-bottom: 60px;
+}
+
+.message-btn {
+  background-color: #787878;
+  box-shadow: bottom;
+  font-family: fantasy;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 5px black;
+  cursor: pointer;
+}
+
+.message-btn:hover {
+  opacity: 0.8;
+}
+
+.message-btn:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+.lesson h2 {
+  padding: 70px 0;
+  border-top: 1px solid #aaaaaa;
+}
+
+.first {
+  padding-bottom: 100px;
+}
+
+.bottom {
+  padding-bottom: 70px;
+}
+
+.contact-title h2{
+  border-bottom: 1px solid #aaaaaa;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.contact-list {
+  display: flex;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.contact-right span {
+  font-family: consolas;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.contact-left {
+  width: 50%;
+  border-right: 1px solid #aaaaaa;
+}
+
+.contact-right {
+  width: 50%;
+}
+
+input, textarea {
+  border: 1px solid #dee7ec;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+input {
+  padding: 10px;
+}
+
+textarea {
+  padding: 30px;
+}
+
+.send {
+  border: 1px solid black 0.7;
+  background-color: #dee7ec
+  width: 400px;
+  cursor: pointer;
+}
+
+.contact-right p {
+  padding: 40px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.social-btn p {
+  border: none;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  line-height: 100px;
+}
